@@ -1,0 +1,12 @@
+[default]
+DEBUG = true
+DYNACONF_LOAD_DOTENV = true
+
+[local]
+
+[development]
+DYNACONF_LOAD_DOTENV = true
+
+[production]
+DEBUG = false
+DYNACONF_LOAD_DOTENV = false

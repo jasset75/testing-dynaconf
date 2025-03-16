@@ -1,3 +1,5 @@
+# poetry configuration file
+
 [project]
 name = "testing-dynaconf"
 version = "0.1.0"
@@ -9,6 +11,7 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dynaconf (>=3.2.10,<4.0.0)"
 ]
 
 
@@ -20,5 +23,6 @@ build-backend = "poetry.core.masonry.api"
 package-mode = false
 
 [tool.poetry.group.dev.dependencies]
-dynaconf = "^3.2.10"
+ipython = "^9.0.2"
+ipdb = "^0.13.13"
 
