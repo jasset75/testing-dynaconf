@@ -1,6 +1,7 @@
 [tools]
-poetry = 'latest'
+poetry = { version="latest", pyproject="{{ config_root }}/pyproject.toml" }
 python = '3.12'
 
 [env]
+MISE_POETRY_VENV_AUTO=1
 ENV_FOR_DYNACONF = 'development'
