@@ -1,2 +1,2 @@
-# testing-dynaconf
-just to improve project basement configuration abilities
+# Python Project Template
+built as base for further projects
